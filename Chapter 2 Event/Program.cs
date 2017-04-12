@@ -22,20 +22,18 @@ namespace Chapter_2_Event
         static void printOdd()
         {
             waitHandle.WaitOne();
-
+            Console.WriteLine();
             for (int i = 1; i <= 500; i += 2)
             {
-                Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write(i + " ");
             }
         }
 
         static void printEven()
         {
-
+            
             for (int i = 0; i <= 500; i += 2)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(i + " ");
             }
 

@@ -30,7 +30,6 @@ namespace Chapter_2
                 {
                     for (int i = 0; i <= 500; i += 2)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.Write(i + " ");
                     }
 
@@ -38,9 +37,9 @@ namespace Chapter_2
                 }
                 else
                 {
+                    Console.WriteLine();
                     for (int i = 1; i < 500; i += 2)
                     {
-                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write(i + " ");
                     }
                 }

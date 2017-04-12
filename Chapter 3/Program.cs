@@ -26,7 +26,7 @@ namespace Chapter_3
 
             for (int i = 1; i <= 500; i += 2)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.Write(i + " ");
 
             }

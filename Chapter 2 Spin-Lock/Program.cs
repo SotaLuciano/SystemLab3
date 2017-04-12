@@ -33,7 +33,6 @@ namespace Chapter_2_Spin_Lock
             {
                 for (int i = 0; i <= 500; i += 2)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write(i + " ");
                 }
                 isEnd = true;
@@ -41,9 +40,9 @@ namespace Chapter_2_Spin_Lock
             }
             else
             {
+                Console.WriteLine();
                 for (int i = 1; i < 500; i += 2)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write(i + " ");
                 }
             }
